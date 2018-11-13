@@ -12,6 +12,7 @@ main() {
     if(c != 'm' && c != 'M' && c != 's' & c != 'S'){ //if the user dont give a right char.
         return 0;
     }
+    printf("Enter the chars sequence :\n");
         value = getchar();
         while (value != '$'){ // if the char != $ keep scan chars.
           value = getchar();
